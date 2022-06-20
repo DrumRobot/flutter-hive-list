@@ -2,6 +2,9 @@
 cmake_minimum_required(VERSION 3.10)
 project(runner LANGUAGES CXX)
 
+set(BINARY_NAME "hive_list")
+set(APPLICATION_ID "dev.lightsalt.hive_list")
+
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.
 cmake_policy(SET CMP0063 NEW)

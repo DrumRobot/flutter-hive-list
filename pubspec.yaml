@@ -1,3 +1,4 @@
+name: hive_list
 version: 1.0.0+1
 
 environment:
@@ -8,6 +9,8 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   flutter_dotenv: ^5.0.2
+  hive: ^2.2.2
+  hive_flutter: ^1.1.0
   sentry_flutter: ^6.5.1
 
 dev_dependencies:
